@@ -11,6 +11,7 @@ const THEMES = [
 	'newspack-nelson',
 	'newspack-sacha',
 	'newspack-scott',
+	'newspack-wmn',
 ];
 
 /**

@@ -29,6 +29,10 @@ if ( ! fs.existsSync( './newspack-joseph/styles' ) ) {
 	fs.mkdirSync( './newspack-joseph/styles' );
 }
 
+if ( ! fs.existsSync( './newspack-wmn/styles' ) ) {
+	fs.mkdirSync( './newspack-wmn/styles' );
+}
+
 /**
  * Save a file do disk.
  */
@@ -172,6 +176,16 @@ const SASS_STYLESHEETS = [
 	{
 		inFile: 'newspack-joseph/sass/style-editor.scss',
 		outFile: 'newspack-joseph/styles/style-editor.css',
+	},
+	// Newspack WMN Child theme
+	{
+		inFile: 'newspack-wmn/sass/style.scss',
+		outFile: 'newspack-wmn/style.css',
+		withRTL: true,
+	},
+	{
+		inFile: 'newspack-wmn/sass/style-editor.scss',
+		outFile: 'newspack-wmn/styles/style-editor.css',
 	},
 ];
 
