@@ -186,7 +186,7 @@ const SASS_STYLESHEETS = [
 	{
 		inFile: 'newspack-wmn/sass/style-editor.scss',
 		outFile: 'newspack-wmn/styles/style-editor.css',
-	},
+	}
 ];
 
 // initial run
