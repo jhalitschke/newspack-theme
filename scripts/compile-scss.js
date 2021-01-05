@@ -180,7 +180,7 @@ const SASS_STYLESHEETS = [
 	// Newspack WMN Child theme
 	{
 		inFile: 'newspack-wmn/sass/style.scss',
-		outFile: 'newspack-wmn/styles/style.css',
+		outFile: 'newspack-wmn/style.css',
 		withRTL: true,
 	},
 	{
